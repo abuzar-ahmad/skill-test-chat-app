@@ -37,7 +37,7 @@ function MessageBox(props) {
   }
 
   function appendZero(time) {
-  if (time < 10 && time.length != 2) {
+  if (time < 10 && time.length !== 2) {
     return "0" + time;
   }
   return time;
