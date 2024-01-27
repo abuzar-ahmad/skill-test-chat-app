@@ -1,48 +1,56 @@
-# ChatApp-React-Coding-Ninjas
+# Todo List
 
-This is a frontend implementation of a chat application built using React, where users can engage in conversations with their contacts. The application allows users to search for conversations by contact name, view and send messages, and manage conversations.
+This React-based application is a straightforward implementation of a task management tool. Users can effortlessly add, modify, and remove tasks, as well as designate tasks as completed. The application also provides the functionality to filter tasks according to their completion status.
 
-Features :-
-Search Conversations: Users can search for conversations based on contact names.
+## Features
 
-Left Sidebar  :-
-Displays a list of all conversations with contact names and snippets of the last messages.
-"Create Conversation" button opens a pop-up displaying contacts from the provided dummy data.
-Clicking on a contact initiates a new conversation or opens an existing one.
+01. Task Addition: Users have the ability to input new tasks into the provided field and utilize the "Add" button to seamlessly append them to the task list.
 
-Right Side View :-
-Shows the messages of the currently selected conversation.
-Users can send messages within the conversation.
-Error and Success Alerts: The application handles errors and displays appropriate alerts or notifications.
+02. Task Editing: Modification of task titles is facilitated by clicking on the edit icon adjacent to the respective task.
 
-React Router: The application uses react-router for routing between different views.
+03. Task Deletion: Removal of tasks is executed by selecting the delete icon associated with a specific task.
 
-React Hooks: React hooks are exclusively used to manage component state and lifecycle.
+04. Task Completion: Users can signify task completion by checking the checkbox beside each task.
 
-Bonus Feature (Optional):Redux is used to store chat messages and conversations, ensuring persistence after a refresh.
+05. Bulk Task Completion: The option to mark all tasks as completed is available through the "Complete all tasks" link.
 
-How to Run :-
-Install dependencies : npm install
+06. Deletion of Completed Tasks: To streamline task management, users can eliminate all completed tasks by selecting the "Delete Comp tasks" link.
 
+07. Task Filtering: The dropdown menu empowers users to filter tasks based on their completion status, enhancing organizational efficiency.
 
-Start the development server : npm start
+08. Task Count Display: Real-time feedback is provided with the presentation of both the total task count and the number of tasks marked as completed.
 
+## Installation
 
-Build the development file : npm run build
+1. Clone the repository:
+   ```
+   git clone <repository-url>
+   ```
 
+2. Navigate to the project directory:
+   ```
+   cd todo-list
+   ```
 
+3. Install the dependencies:
+   ```
+   npm install
+   ```
 
-Technologies Used :-
-React
+4. Start the application:
+   ```
+   npm start
+   ```
 
-React Router
+5. Open your web browser and visit http://localhost:3000 to see the Todo List application.
 
-Redux (Optional, for bonus feature) 
+## Dependencies
 
-CSS (for styling)        
+The following dependencies are used in this project:
 
+- react: ^16.0.0
+- react-dom: ^16.0.0
+- react-toastify: ^8.0.0
 
-
-
-
+You can find the complete list of dependencies with their versions in the `package.json` file.
 
